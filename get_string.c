@@ -30,6 +30,19 @@ puts("Enter the string");
     printf("The second string \"%s\"\n",str2);
 
 
+    //add the first string to the second
+    strcat(str2,str);
+    printf("The enter string \"%s\"\n",str);
+    printf("The second string \"%s\"\n",str2);
 
+    ctrcpy(str,str2);
+    printf("The enter string \"%s\"\n",str);
+    printf("The second string \"%s\"\n",str2);
+
+
+
+
+
+    
     return 0;
 }
